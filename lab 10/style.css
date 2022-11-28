@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5E9171;
+}
+
+header {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+button {
+    width: 49%;
+    font-size: 25px;
+    background-color: #5E9171;
+    border: 4px solid #283D27;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.page-title {
+    color: rgb(83, 83, 238);
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid rgb(83, 83, 238);
+    margin: 2.5px 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#statistic {
+    border: 4px solid #283D27;
+    box-sizing: border-box;
+    font-size: 25px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.statistic-item {
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#statistic-list {
+    min-height: 100px;
+
+}
+
+.page-name > li {
+    color: green;
+}
