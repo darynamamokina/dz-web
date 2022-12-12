@@ -13,12 +13,12 @@ document.getElementById('reset-history').addEventListener('click', () => {
     localStorage.setItem('pagehistory', JSON.stringify([]));
     pagehistory = [];
     const liElems = document.querySelectorAll('#statistic-item #page-counter');
-
+    
     for (const liElem of liElems) {
         liElem.remove();
-    }
-
-});
+    } 
+    
+}); 
 
 const div = document.getElementById('statistic-list');
 let pagehistory = [];
@@ -57,5 +57,6 @@ document.querySelector('header').addEventListener('click', function (event) {
         }
         else {
             counter = parseInt(span.innerText.split(':')[1], 10) + 1;
+            span.innerText = span.innerText.split(':')[0] + ':' + counter;
         }
     });
