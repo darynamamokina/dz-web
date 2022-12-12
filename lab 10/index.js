@@ -57,3 +57,5 @@ document.querySelector('header').addEventListener('click', function (event) {
         }
         else {
             counter = parseInt(span.innerText.split(':')[1], 10) + 1;
+        }
+    });
